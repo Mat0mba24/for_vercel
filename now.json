@@ -1,0 +1,11 @@
+{
+	"routes": [
+		{
+			"src": "/",
+			"headers": {
+				"X-Author": "mat0mba",
+				"Access-Control-Allow-Origin": "*"
+			}
+		}
+	]
+}
