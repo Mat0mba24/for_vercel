@@ -1,11 +1,16 @@
 {
 	"routes": [
 		{
-			"src": "/*",
+			"src": "/",
 			"headers": {
 				"X-Author": "mat0mba",
 				"Access-Control-Allow-Origin": "*"
-			}
+			},
+			"dest": "/index.html"
+		},
+		{
+			"src": "/123",
+			"dest": "/index.html"
 		}
 	]
 }
