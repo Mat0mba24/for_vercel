@@ -9,7 +9,10 @@
 			"dest": "/index.html"
 		},
 		{
-			"src": "/123",
+			"src": "/1234",
+			"headers": {
+				"X-Author": "123"
+			},
 			"dest": "/index.html"
 		}
 	]
