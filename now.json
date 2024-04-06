@@ -3,14 +3,16 @@
 		{
 			"src": "/",
 			"headers": {
-				"X-Author": "123"
+				"X-Author": "mat0mba",
+				"Access-Control-Allow-Origin": "*"
 			},
 			"dest": "/index.html"
 		},
 		{
-			"src": "/1234",
+			"src": "/123",
 			"headers": {
-				"X-Author": "123"
+				"X-Author": "123",
+				"Access-Control-Allow-Origin": "*"
 			},
 			"dest": "/index.html"
 		}
