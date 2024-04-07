@@ -1,20 +1,19 @@
 {
 	"routes": [
 		{
-			"src": "/",
+			"src": "/login/",
 			"headers": {
-				"X-Author": "mat0mba",
-				"Access-Control-Allow-Origin": "*"
+				"Access-Control-Allow-Origin": "*",
+				"Content-Type": "text/plain; charset=UTF-8"
 			},
 			"dest": "/index.html"
 		},
 		{
-			"src": "/123",
+			"src": "/sample/",
 			"headers": {
-				"X-Author": "123",
-				"Access-Control-Allow-Origin": "*"
+				"Content-Type": "text/plain; charset=UTF-8"
 			},
-			"dest": "/index.html"
+			"dest": "/index.js"
 		}
 	]
 }
