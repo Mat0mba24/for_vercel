@@ -11,6 +11,7 @@
 		{
 			"src": "/sample/",
 			"headers": {
+				"Access-Control-Allow-Origin": "*",
 				"Content-Type": "text/plain; charset=UTF-8"
 			},
 			"dest": "/index.js"
