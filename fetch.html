@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Метод Fetch</title>
+</head>
+
+<body>
+	<input type="text" id="inp">
+	<button id="bt">Выполнить</button>
+	<script>
+		{
+			document.querySelector('#bt').addEventListener(
+				"click", async () => {
+					const url = document.querySelector('#inp').value;
+					let response = await fetch(url);
+					document.querySelector('#inp').value = await response.text();
+				});
+		}
+	</script>
+</body>
+
+</html>

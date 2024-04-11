@@ -9,12 +9,20 @@
 			"dest": "/index.html"
 		},
 		{
-			"src": "/sample/",
+			"src": "/promise/",
 			"headers": {
 				"Access-Control-Allow-Origin": "*",
 				"Content-Type": "text/plain; charset=UTF-8"
 			},
-			"dest": "/index.js"
+			"dest": "/promise.js"
+		},
+		{
+			"src": "/fetch/",
+			"headers": {
+				"Access-Control-Allow-Origin": "*",
+				"Content-Type": "text/html; charset=UTF-8"
+			},
+			"dest": "/fetch.html"
 		}
 	]
 }
