@@ -2,13 +2,9 @@ const express = require('express');
 
 const app = express();
 
-app.get('/', (req, res) => res.send('Home Page Route'));
+app.get('/login', (req, res) => res.send('mat0mba'));
 
-app.get('/about', (req, res) => res.send('About Page Route'));
-
-app.get('/portfolio', (req, res) => res.send('Portfolio Page Route'));
-
-app.get('/contact', (req, res) => res.send('Contact Page Route'));
+app.route('/deg/:n1/:n2').get(r => r.res.send(Number(r.params.n1) ** Number(r.params.n2)));
 
 const port = process.env.PORT || 3000;
 
