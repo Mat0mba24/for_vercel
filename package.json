@@ -1,0 +1,11 @@
+{
+	"name": "pw1",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"repository": "https://github.com/Mat0mba24/for_vercel.git",
+	"author": "Mat0mba24 <mat0mba@mail.ru>",
+	"license": "MIT"
+}
